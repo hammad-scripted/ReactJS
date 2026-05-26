@@ -1,10 +1,11 @@
 import React from 'react';
 import DisplayQueue from './DisplayQueue';
+import QueueForm from './QueueForm';
 
 const App = () => {
   const [queue, setQueue] = React.useState([]);
 
-  const addToQueue = (customerName) => {};
+  const addToQueue = (customerName, serviceType) => {};
   const removeFromQueue = (id) => {};
   const updateQueue = (id, newName) => {};
 
